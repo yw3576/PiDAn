@@ -20,6 +20,12 @@ more than 90\% infected classes and identify 95\% poisoned samples.
 ### PiDAn algorithm for backdoor detection
 PiDAn/Untitled_traffic.m
 
+### To get the backdoored model
+finetune_and_test1-traffic-badnets.py
+
+### To get the representations of the last-hidden layer
+features.py
+
 ### Patched data samples
 ![Algorithm schema](./images/badnet_00014_00019_00016_epoch_8100024.png)
 ![Algorithm schema](./images/badnet_00014_00006_00021_epoch_0700028.png)
